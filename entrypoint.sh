@@ -6,7 +6,7 @@ fi
 echo ${VER}
 
 if [[ -z "${UUID}" ]]; then
-  UUID="ffc17112-b755-499d-be9f-91a828bd3197"
+  UUID="5ae3f16f-7623-4174-bc46-956c9466ada3"
 fi
 echo ${UUID}
 
@@ -26,7 +26,7 @@ fi
 echo ${V2_QR_Path}
 
 rm -rf /etc/localtime
-ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+ln -sf /usr/share/zoneinfo/Asia/Tehran /etc/localtime
 date -R
 
 
